@@ -98,6 +98,12 @@ exports.get = function(av, page, callback) {
             }, "binary").on("error", callback);
         },
 
+        /**
+         * step 4.
+         *   convert xml to json object
+         * @param xml
+         * @param callback
+         */
         function(xml, callback) {
             parseString(xml, function(err, result) {
                 if(err) return callback(err);
