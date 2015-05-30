@@ -46,6 +46,6 @@ If subtitles fetched successfully, `subtitiles` will be an array which contains 
 
 ## CONTRIBUTE
 
-You're welcome to pull requests!
+You're welcome to make pull requests!
 
 「雖然我覺得不怎麼可能有人會關注我」
