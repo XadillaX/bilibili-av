@@ -51,4 +51,16 @@ describe("# parse cid and page name", function() {
             done();
         });
     });
+
+    it("should timeout", function(done) {
+        var av = new AV(2674090, {
+            timeout: 10
+        });
+
+        av.getCid(function(err) {
+            err.message.indexOf("timeout").should.not.be.eql(-1);
+            done();
+        });
+
+    });
 });
