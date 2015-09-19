@@ -8,6 +8,11 @@ A third-party bilibili AV information parse SDK for node.js.
 
 > Under development.
 
+## PACKAGE: BILIBILI-SUBTITLES
+
+This package was deprecated. But if you're looking for the source or repo of this package, you may
+go to branch [bilibili-subtitles](https://github.com/XadillaX/bilibili-av/tree/bilibili-subtitles).
+
 ## CONTRIBUTE
 
 You're welcome to make pull requests!
