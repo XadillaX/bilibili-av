@@ -1,18 +1,21 @@
 {
-  "name": "bilibili-subtitles",
+  "name": "bilibili-av",
   "version": "1.0.0",
-  "description": "This module is for getting bilibili subtitles via a certain av number and its page number.",
+  "description": "This module is for getting bilibili av information via a certain av number and its page number.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "async": "~0.9.0",
-    "spidex": "~1.0.7",
-    "sugar": "~1.4.1",
-    "xml2js": "~0.4.4"
+    "async": "^1.4.2",
+    "spidex": "^2.0.5",
+    "sugar": "^1.4.1",
+    "xml2js": "^0.4.12"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "should": "^7.1.0"
+  },
   "scripts": {
     "test": "node test/av.js"
   },
