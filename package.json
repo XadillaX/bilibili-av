@@ -19,7 +19,7 @@
     "should": "^7.1.0"
   },
   "scripts": {
-    "test": "node test/av.js"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
