@@ -29,10 +29,12 @@
     "bilibili",
     "subtitles",
     "zimu",
-    "弹幕"
+    "弹幕",
+    "av",
+    "danmaku"
   ],
-  "author": "XadillaX",
-  "license": "GPLv2",
+  "author": "XadillaX <admin@xcoder.in>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/XadillaX/bilibili-subtitles/issues"
   },
