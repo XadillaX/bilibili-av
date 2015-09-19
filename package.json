@@ -13,6 +13,8 @@
     "xml2js": "^0.4.12"
   },
   "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.20",
     "mocha": "^2.3.2",
     "should": "^7.1.0"
   },
