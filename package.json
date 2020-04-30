@@ -10,7 +10,8 @@
     "async": "^1.4.2",
     "spidex": "^2.0.5",
     "sugar": "^1.4.1",
-    "xml2js": "^0.4.12"
+    "xml2js": "^0.4.12",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
@@ -19,7 +20,9 @@
     "should": "^7.1.0"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha"
+    "test": "./node_modules/.bin/mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -38,5 +41,6 @@
   "bugs": {
     "url": "https://github.com/XadillaX/bilibili-subtitles/issues"
   },
-  "homepage": "https://github.com/XadillaX/bilibili-subtitles"
+  "homepage": "https://github.com/XadillaX/bilibili-subtitles",
+  "snyk": true
 }
